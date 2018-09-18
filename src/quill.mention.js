@@ -38,7 +38,7 @@ class Mention {
     this.mentionContainer.onmousemove = this.onContainerMouseMove.bind(this);
 
     if (this.options.fixMentionsToQuill) {
-      this.mentionContainer.style.width = 'inherit';
+      this.mentionContainer.style.width = 'auto';
     }
 
     this.mentionList = document.createElement('ul');
